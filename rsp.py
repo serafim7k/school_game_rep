@@ -33,3 +33,5 @@ elif user_wins_count < bot_wins_count:
     print(f'\n\tUser wins:', Fore.BLACK + Back.RED + f'{user_wins_count}' + Style.RESET_ALL, f'\n\tBot wins:', Fore.BLACK + Back.GREEN + f'{bot_wins_count}' + Style.RESET_ALL)
 else:
     print(f'\n\tUser wins: {user_wins_count}\n\tBot wins: {bot_wins_count}')
+
+input()
